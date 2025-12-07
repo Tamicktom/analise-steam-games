@@ -8,6 +8,9 @@ modal = "*"
 pandas = "*"
 numpy = "*"
 sqlalchemy = "*"
+python-dotenv = "*"
+psycopg = {extras = ["binary", "pool"], version = "*"}
+psycopg2-binary = "*"
 
 [dev-packages]
 ipykernel = "*"
